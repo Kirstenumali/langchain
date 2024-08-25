@@ -45,6 +45,8 @@ Bot: Chains
 
 
 ## RAG Framework 
+## Definition 
+Retirival Augmented Generation 
 - For instance, you are working for a healthcare company.
 - Domain related: Budget
 - You will ask a question: what is the budget? (LLM)
