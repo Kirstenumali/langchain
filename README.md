@@ -1,8 +1,9 @@
 # LangChain
 According to **LangChain**, LangChain is a framework to build with LLMs by chaining interoperable components. LangGraph is the framework for building controllable agentic workflows. For example, ChatGPT or OpenAI was used. Overall, LangChain is used for LLM. 
 
-According to **Nallagoni Omkar**, LangChain is a framework, and it's used to integrate with Large Language Models (LLM)
+According to **Nallagoni Omkar**, LangChain is a Python framework and framework used to integrate with large language models (LLM). Langchain is a framework. LangChain creates the GeminiAI prompt. 
 
+## Real World Models in LangChain
 1) ChatGPT - OpenAI + Microsoft  
 2) GeminiAI - Google 
 3) BedRock - Amazon 
@@ -52,7 +53,14 @@ Retirival Augmented Generation
 - You will ask a question: what is the budget? (LLM)
     - It will search from the document.
     - It will give you the answer.
-  
+
+## Externals
+-[GeminiAI](https://ai.google.dev/aistudio)
+-[LangChain](https://www.langchain.com/)
+-[LangChain Python Documentation](https://python.langchain.com/v0.2/docs/introduction/)
+-[LangChain JavaScript Documentation](https://js.langchain.com/v0.2/docs/tutorials/)
+ 
+    
  
 
 
