@@ -3,12 +3,9 @@ According to LangChain, LangChain is a framework to build with LLMs by chaining 
 
 According to Nallagoni Omkar, LangChain is a framework, and it's used to integrate with Large Language Models (LLM)
 
-1) ChatGPT - OpenAI + Microsoft
-    
-2) GeminiAI - Google
-   
-3) BedRock - Amazon
-   
+1) ChatGPT - OpenAI + Microsoft  
+2) GeminiAI - Google 
+3) BedRock - Amazon 
 4) Llama - Meta
 
 ## Lifecycle of a Data Science 
@@ -27,9 +24,13 @@ According to Nallagoni Omkar, LangChain is a framework, and it's used to integra
 
 ## LLM Processor
 A) Chains 
+
 B) Agents 
+
 C) Tools 
+
 D) Memory 
+
 E) Callbacks 
 
 ## We are going to check the LangChain UseCase: 
