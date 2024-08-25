@@ -56,10 +56,14 @@ Retirival Augmented Generation
 
 ## Externals
 -[GeminiAI](https://ai.google.dev/aistudio)
+
 -[LangChain](https://www.langchain.com/)
+
 -[LangChain Python Documentation](https://python.langchain.com/v0.2/docs/introduction/)
+
 -[LangChain JavaScript Documentation](https://js.langchain.com/v0.2/docs/tutorials/)
- 
+
+-[LangChain Components](https://python.langchain.com/v0.1/docs/modules/)
     
  
 
