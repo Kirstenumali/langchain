@@ -64,6 +64,8 @@ Retirival Augmented Generation
 -[LangChain JavaScript Documentation](https://js.langchain.com/v0.2/docs/tutorials/)
 
 -[LangChain Components](https://python.langchain.com/v0.1/docs/modules/)
+
+-[Google Colab](https://colab.research.google.com/)
     
  
 
