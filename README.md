@@ -79,17 +79,20 @@ Retirival Augmented Generation
 ## Definition
 **Python** is a programming language used to build applications. According to W3Schools, "Python is a popular programming language. It was created by Guido van Rossum and released in 1991." Overall, it is used to build an application, which is the key to communicating in applications.
 
+**Code**
 ```bash 
 # 1: Install the packages 
 !pip install langchain
 !pip install langchain-community
 ```
 
+**Code**
 ```bash 
 # 2: Import the packages 
 from langchain.document_loaders import TextLoader
 ```
 
+**Code**
 ```bash
 # Give the loader as a variable
 loader=TextLoader('/content/Model Development_without_hyperparameter_tuningChurn_class_room (1).ipynb')
@@ -107,13 +110,14 @@ print(documents)
 
 
 **Document**
+
 ```bash
 # metadata 
 # page_content 
 ```
 
+**Code**
 ```bash
-# code 
 # How many are the documents?
 len(documents)
 ```
@@ -121,7 +125,7 @@ len(documents)
 - 1
 
 ##
-
+**Code**
 ```bash
 # How can we access the list items: Using the Index
 # code 
@@ -134,8 +138,8 @@ Document(metadata={'source': '/content/Model Development_without_hyperparameter_
 ```
 ## 
 
+**Code**
 ```bash
-# code 
 documents[0].metadata
 ```
 
@@ -143,6 +147,7 @@ documents[0].metadata
 - {'source': '/content/Model Development_without_hyperparameter_tuningChurn_class_room (1).ipynb'}
 
 ##
+**Code** 
 ```bash
 # code 
 documents[0].page_content
@@ -152,6 +157,7 @@ documents[0].page_content
 - '{\n "cells": [\n  {\n   "cell_type": "code",\n   "execution_count": 1,\n   "id": "bb12e491-3cf4-49f0-8897-dd517ad9d7c3",\n   "metadata": {},\n   "outputs": [],\n   "source": [\n    "import pandas as pd"\n   ]\n  },\n  {\n   "cell_type": "code",\n   "execution_count": 4,\n   "id": "da804202-f031-4623-afeb-ea6354cb2161",\n   "metadata": {},\n   "outputs": [\n    {\n     "data": {\n      "text/html": [\n       "<div>\\n",\n       "<style scoped>\\n",\n       "    .dataframe tbody tr th:only-of-type {\\n",\n       "        vertical-align: middle;\\n",\n       "    }\\n",\n       "\\n",\n       "    .dataframe tbody tr th {\\n",\n       "        vertical-align: top;\\n",\n       "    }\\n",\n       "\\n",\n       "    .dataframe thead th {\\n",\n       "        text-align: right;\\n",\n       "    }\\n",\n       "</style>\\n",\n       "<table border=\\"1\\" class=\\"dataframe\\">\\n",\n       "  <thead>\\n",\n       "    <tr style=\\"text-align: right;\\">\\n",\n       "      <th></th>\\n",
 
 ## 
+**Code**
 ```bash
 # code  
 # The output is very long, and you want to count it
@@ -162,17 +168,21 @@ print(documents[0].page_content)
 - 67206
 ## 
 
+**Code**
 ```bash
 # code 
 # 3: Text splitters
 from langchain.text_splitter import CharacterTextSplitter
 ```
-## 
+##
+
+
 ## 1: chunk_size 
 ## 2: chunk_overlap
 
 
-
+*Suppose you want to put in Chunks*
+##
 **Example 1:**
 ```bash
 # chunk_overlap
@@ -190,11 +200,48 @@ I won't hang till death
 ```
 ##
 
+**Code**
+```bash
+# Text splitter is one variable name 
+text_splitter=CharacterTextSplitter(chunk_size=1000,chunk_overlap=100)
+docs=text_splitter.split_documents(documents)
+docs
+```
 
+# The file name is documents (Check)
+**Code**
+```bash
+# You need to pass
+docs=text_splitter.split_documents(documents)
+print(docs)
+```
 
+```bash
+# We asked for the data in 1000 characters 
+# but one chunk has 1103 characters 
+# No warnings means it is divided properly
+# One warning means = one chunk problem
+```
+**Code**
+```bash
+len(docs[0].page_content)
+```
 
+**Output**
+- 67205
 
-    
+##
+
+**Code**
+```bash 
+[len(docs[i].page_content) for i in range(0,1)]
+```
+
+**Output**
+- This will be the chunks when you want to check the chunks for the total characters in the document. Suppose I only have 1 document, so my range is up to 1. 
+- [67205]
+
+@ 2024 August 26 Monday 
  
 
 
