@@ -14,14 +14,20 @@ According to **Nallagoni Omkar**, LangChain is a Python framework or JavaScript 
 2. Preprocess the data
 3. Data Analysis (EDA)
 4. Model Development
-     - Machine Learning (Scikit-learn)
-     - Deep Learning (TensorFlow/Pytorch/Keras)
-     - Natural Language Process (NLTK)
-     - GenAI + LLM (LangChain)
+     - Machine Learning
+            - Scikit-learn
+     - Deep Learning
+            - TensorFlow
+            - Pytorch
+            - Keras
+     - Natural Language Process
+            - NLTK
+     - GenAI + LLM
+            - LangChain
 5. Model Evaluation
 6. Hyperparameter Tuning
 7. Model Deployment
-  - Azure AI Certification is included in this process.  
+   - Azure AI Certification is included in this process.  
 
 ## LLM Processor
 A) Chains 
