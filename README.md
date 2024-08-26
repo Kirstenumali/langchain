@@ -34,7 +34,7 @@ D) Memory
 
 E) Callbacks 
 
-## We are going to check the LangChain UseCase: 
+## The LangChain UseCase, we are going to check: 
 ## Definition: 
 ChatBot uses an LLM Model, so you must write some Python code.
 
@@ -55,17 +55,17 @@ Retirival Augmented Generation
     - It will give you the answer.
 
 ## Externals
--[GeminiAI](https://ai.google.dev/aistudio)
+- [GeminiAI](https://ai.google.dev/aistudio)
 
--[LangChain](https://www.langchain.com/)
+- [LangChain](https://www.langchain.com/)
 
--[LangChain Python Documentation](https://python.langchain.com/v0.2/docs/introduction/)
+- [LangChain Python Documentation](https://python.langchain.com/v0.2/docs/introduction/)
 
--[LangChain JavaScript Documentation](https://js.langchain.com/v0.2/docs/tutorials/)
+- [LangChain JavaScript Documentation](https://js.langchain.com/v0.2/docs/tutorials/)
 
--[LangChain Components](https://python.langchain.com/v0.1/docs/modules/)
+- [LangChain Components](https://python.langchain.com/v0.1/docs/modules/)
 
--[Google Colab](https://colab.research.google.com/)
+- [Google Colab](https://colab.research.google.com/)
     
  
 
