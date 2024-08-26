@@ -73,6 +73,8 @@ Retirival Augmented Generation
 
 - [Google Colab](https://colab.research.google.com/)
 
+- [Yashoda Hospitals](https://www.yashodahospitals.com/)
+
 ## Python Introduction 
 ## Definition
 **Python** is a programming language used to build applications. According to W3Schools, "Python is a popular programming language. It was created by Guido van Rossum and released in 1991." Overall, it is used to build an application, which is the key to communicating in applications.
