@@ -72,6 +72,14 @@ Retirival Augmented Generation
 - [LangChain Components](https://python.langchain.com/v0.1/docs/modules/)
 
 - [Google Colab](https://colab.research.google.com/)
+
+## Python Introduction 
+## Definition
+Python is a programming language used to build applications. According to W3Schools, "Python is a popular programming language. It was created by Guido van Rossum and released in 1991." Overall, it is used to build an application, which is the key to communicating in applications. 
+*Give the loader as  a variable*
+loader=TextLoader('/content/Model Development_without_hyperparameter_tuningChurn_class_room (1).ipynb')
+
+
     
  
 
