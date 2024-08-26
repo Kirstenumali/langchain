@@ -133,11 +133,12 @@ Document(metadata={'source': '/content/Model Development_without_hyperparameter_
 ## 
 
 ```bash
+# code 
 documents[0].metadata
 ```
 
 **Output**
-{'source': '/content/Model Development_without_hyperparameter_tuningChurn_class_room (1).ipynb'}
+- {'source': '/content/Model Development_without_hyperparameter_tuningChurn_class_room (1).ipynb'}
 
 ##
 ```bash
@@ -145,7 +146,7 @@ documents[0].page_content
 ```
 
 **Output**
-'{\n "cells": [\n  {\n   "cell_type": "code",\n   "execution_count": 1,\n   "id": "bb12e491-3cf4-49f0-8897-dd517ad9d7c3",\n   "metadata": {},\n   "outputs": [],\n   "source": [\n    "import pandas as pd"\n   ]\n  },\n  {\n   "cell_type": "code",\n   "execution_count": 4,\n   "id": "da804202-f031-4623-afeb-ea6354cb2161",\n   "metadata": {},\n   "outputs": [\n    {\n     "data": {\n      "text/html": [\n       "<div>\\n",\n       "<style scoped>\\n",\n       "    .dataframe tbody tr th:only-of-type {\\n",\n       "        vertical-align: middle;\\n",\n       "    }\\n",\n       "\\n",\n       "    .dataframe tbody tr th {\\n",\n       "        vertical-align: top;\\n",\n       "    }\\n",\n       "\\n",\n       "    .dataframe thead th {\\n",\n       "        text-align: right;\\n",\n       "    }\\n",\n       "</style>\\n",\n       "<table border=\\"1\\" class=\\"dataframe\\">\\n",\n       "  <thead>\\n",\n       "    <tr style=\\"text-align: right;\\">\\n",\n       "      <th></th>\\n",
+- '{\n "cells": [\n  {\n   "cell_type": "code",\n   "execution_count": 1,\n   "id": "bb12e491-3cf4-49f0-8897-dd517ad9d7c3",\n   "metadata": {},\n   "outputs": [],\n   "source": [\n    "import pandas as pd"\n   ]\n  },\n  {\n   "cell_type": "code",\n   "execution_count": 4,\n   "id": "da804202-f031-4623-afeb-ea6354cb2161",\n   "metadata": {},\n   "outputs": [\n    {\n     "data": {\n      "text/html": [\n       "<div>\\n",\n       "<style scoped>\\n",\n       "    .dataframe tbody tr th:only-of-type {\\n",\n       "        vertical-align: middle;\\n",\n       "    }\\n",\n       "\\n",\n       "    .dataframe tbody tr th {\\n",\n       "        vertical-align: top;\\n",\n       "    }\\n",\n       "\\n",\n       "    .dataframe thead th {\\n",\n       "        text-align: right;\\n",\n       "    }\\n",\n       "</style>\\n",\n       "<table border=\\"1\\" class=\\"dataframe\\">\\n",\n       "  <thead>\\n",\n       "    <tr style=\\"text-align: right;\\">\\n",\n       "      <th></th>\\n",
 
 ## 
 ```bash 
